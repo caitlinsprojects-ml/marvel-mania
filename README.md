@@ -32,4 +32,4 @@ Future implementations of this game will include:
           play.lets_play()
 
 ## testing 
-!pytest should be sufficient to run my tests. Not all tests have been created as I am still a beginning programmer, but I'm trying my best. :)
+!pytest should be sufficient to run my tests. Not all tests have been created as I am still a beginning programmer.
