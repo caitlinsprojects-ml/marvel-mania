@@ -2,16 +2,12 @@
 
     Note
     ----
-    Professor Ellis and I talked and she said it's ok to do only one function test due to the complexity of my code.
+    The Professor and I talked and she said it's ok to do only one function test due to the complexity of my code.
     But I did more anyways. :)
     
     The code I took to make my tests (with modifications)
     -----------------------------------------------------
         https://stackoverflow.com/questions/47690020/python-3-unit-tests-with-user-input
-        
-    I worked with a student named Tony on developing his mock test, first by explaining the code from the stack overflow link,
-    above and then by going step by step with him to make sure he could recreate it in his own test file. Our code will 
-    look similar because of this.
 """
 
 from choose_film import ChooseFilm
@@ -77,7 +73,8 @@ class Test(TestCase):
         mocked_title = ['Ant-Man']
         self.assertEqual(game_functions.guess_movie('QUIT'), False)
     
-
+    
+# the tests below are scrapped ideas that I wanted to implement but wasn't sure how to. Will eventually come back to these.
 '''
 def TestReadScript():
     assert callable(ReadScript)
@@ -114,9 +111,3 @@ def test_guess_incorrect():
     assert isinstance(game_functions.guess_incorrect('Ant-Man'), bool) # idk if this will work
     
 '''
-        
-        
-    
-    
-    
-    
