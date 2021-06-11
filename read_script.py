@@ -89,19 +89,3 @@ class ReadScript():
                 print(level_number, level)
                 
             return input('Please indicate the difficulty level by entering an integer between 1 and 4: \t')
-        
-        
-# how to call
-# trial = ReadScript()
-# trial.read_lines()
-
-# Testing 
-#def test_ReadScript():
-#    assert callable(ReadScript)
-#    assert callable(read_lines)
-#    assert isinstance(movie_script, str)
-#    assert isinstance(start, int)
-    
-
-    
-    
