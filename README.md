@@ -4,7 +4,7 @@ Welcome to my first working Python game! A few things to note before we get star
 
   1. I  am not affiliated with Marvel or Disney in any capacity and do not own any of the CSV files. I got them from Kaggle and cleaned them up.
 
-  2. This game was made for educaitonal purposes only and is not making money in any way.
+  2. This game was made for educational purposes only and is not making money in any way.
 
   3. This is for extra credit for my coding class. Hi Professor! :)
 
