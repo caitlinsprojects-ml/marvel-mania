@@ -10,22 +10,26 @@ Welcome to my first working Python game! A few things to note before we get star
 
 
 
-Now for the meat and potatoes.
+## about-code-setup
 
-- The script to run this game is in the folder game_script and the file is called lets_play.py.
-- The functions, class, and files that the script runs are in a folder called modules.
+#### *To get my code to run, my script, functions and classes are all in the same place. This is different from what I submitted on Datahub.*
 - The Marvel movie script CSV files are in a folder called marvel_dialogue_dataset, which is inside the modules folder.
-- I don't know if Jupyter notebook was being weird but after submitting my project and trying to run it again it wouldn't run.
-- So, to the best of my knowledge this code should work. If it doesn't, I'll fix it.
+- I don't know if Jupyter notebook was being weird but after submitting my project and trying to run it again it wouldn't run. So I scrapped most of the folders and now both the game and pytest run correctly. 
+- To the best of my knowledge this code should work.
 
-## about-the-game
-Each round the player will choose a level between 1 and 4, from easiest to hardest, and a number of lies from one of twenty-three Marvel movies will print out. As the levels get harder the number of lines printed will decrease. The player will then guess the movie title. If the player would like to quit the game, simply typing "QUIT" when prompted to guess will quit that round. To get a list of films, the player will make a guess and then type "films". There are an unlimited number of rounds allowed.
+## how-to-play
+Each round the player will choose a level between 1 and 4, from easiest to hardest, and a number of lines from one of twenty-three Marvel movies will print out. As the levels get harder the number of lines printed will decrease. The player will then guess the movie title. 
+
+If the player would like to quit the game, simply typing "QUIT" when prompted to guess will quit that round. To get a list of films, the player will make a guess and then type "films". There are an unlimited number of rounds allowed.
+
+## about-future-edits 
 
 Future implementations of this game will include:
 - a timer
 - a complex scoring system indicating number of first try correctness, number of correct answers per game, and total rounds played
 - a scoring system that saves previous scores and presents data on player's best and worst known films and other player statistics.
 
+## run-game
 - To run the game, run this code:
           
           from game_script import lets_play as play 
