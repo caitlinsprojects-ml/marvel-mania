@@ -1,4 +1,4 @@
-from modules import game_functions as game, choose_film, read_script, script_variables
+import game_functions as game, choose_film, read_script, script_variables
 
 def lets_play():
     """ Main play game function.
