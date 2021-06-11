@@ -32,7 +32,7 @@ Future implementations of this game will include:
 ## run-game
 - To run the game, run this code:
           
-          from game_script import lets_play as play 
+          import lets_play as play 
           play.lets_play()
 
 ## testing 
