@@ -59,10 +59,4 @@ class ChooseFilm():
         self.movie_script = scripts.movie_list[self.index]
         
         return self.movie_script
-
     
-#class test_ChooseFilm():
-#    assert callable(ChooseFilm)
-#    assert isinstance(title, str)
-#    assert isinstance(index, int)
-#    assert isinstance(movie_script, str)
