@@ -11,10 +11,7 @@ Welcome to my first working Python game! A few things to note before we get star
 
 
 ## about-code-setup
-
-#### *To get my code to run, my script, functions and classes are all in the same place. This is different from what I submitted on Datahub.*
-- The Marvel movie script CSV files are in a folder called marvel_dialogue_dataset, which is inside the modules folder.
-- I don't know if Jupyter notebook was being weird but after submitting my project and trying to run it again it wouldn't run. So I scrapped most of the folders and now both the game and pytest run correctly. 
+- Code setup is detailed in the project description.  
 - To the best of my knowledge this code should work.
 
 ## how-to-play
