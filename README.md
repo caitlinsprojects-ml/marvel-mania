@@ -11,7 +11,21 @@ Welcome to my first working Python game! A few things to note before we get star
 
 
 ## about-code-setup
-- Code setup is detailed in the project description.  
+(Copied from the MarvelManiaProject.ipynb's project description)  
+##### game_script/lets_play
+- The file contains the main script to run my game, a function called lets_play. It also contains the function that restarts my game if the player wants to play another round.
+##### modules/marvel_dialogue_dataset
+- This folder contains the csv files for 23 Marvel movie scripts. I got them from Kaggle and reformatted them.
+##### modules/game_functions
+- This file contains most of my functions. It has functions get_input, print_dialogue, guess_movie and guess_incorrect.
+##### modules/choose_film
+- This file contains the ChooseMovie class which contains the function/method choose_movie.
+##### modules/read_script*
+- This file contains the ReadScript class which contains the function/method read_lines.
+##### modules/script_variables
+- This file contains all the csv variables for easy access and two lists: a list of string movie titles and a corresponding list of csv-containing variables.
+##### modules/test_functions
+- This file contains the tests for my functions. !pytest will run this file.
 - To the best of my knowledge this code should work.
 
 ## how-to-play
@@ -21,15 +35,17 @@ If the player would like to quit the game, simply typing "QUIT" when prompted to
 
 ## about-future-edits 
 
-Future implementations of this game will include:
+Future additions to this game will include:
 - a timer
 - a complex scoring system indicating number of first try correctness, number of correct answers per game, and total rounds played
 - a scoring system that saves previous scores and presents data on player's best and worst known films and other player statistics.
+- graphics
+- sequels for Marvel Disney+ tv shows, Marvel Netflix shows, Agents of S.H.I.E.L.D. and Agent Carter
 
 ## run-game
-- To run the game, run this code:
+- To run the game, either run the code in the ipynb file or run this code:
           
-          import lets_play as play 
+          from game_script import lets_play as play 
           play.lets_play()
 
 ## testing 
